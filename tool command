@@ -1,10 +1,13 @@
+
 pkg update
-#pkg upgrade
-#pkg install git
-#pkg install python
-#pip install requests
-#pip install mechanize
-#pip install bs4
+pkg upgrade
+pkg install git
+pkg install python
+pip install requests
+pip install mechanize
+pip install bs4
+pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests
+rm -rf File
 git clone https://github.com/W4SIF007/File.git
 ls
 cd File
